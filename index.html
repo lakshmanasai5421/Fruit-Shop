@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FruitLux — Premium organic and imported fruits for retail and wholesale. Fresh daily, delivered with quality and trust." />
+  <meta name="keywords" content="organic fruits, fresh fruits, wholesale fruits, premium fruits, fruit delivery" />
+  <meta property="og:title" content="FruitLux — Fresh Fruits Delivered with Quality & Trust" />
+  <meta property="og:description" content="Premium organic and imported fruits for retail and wholesale customers." />
+  <meta property="og:type" content="website" />
+  <title>FruitLux — Premium Fresh Fruits</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-mode" data-scroll="0">
+
+  <!-- ═══════════════ LOADING SCREEN ═══════════════ -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-fruit">🍊</div>
+      <div class="loader-bar"><span></span></div>
+      <p>Harvesting freshness…</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">🌿</span>
+        <span class="logo-text">Fruit<em>Lux</em></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#products">Shop</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="cart-btn" id="cartBtn" aria-label="Cart">
+          <i class="fas fa-shopping-basket"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=1800&q=80" alt="Fresh fruits" class="hero-img" loading="lazy" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Floating decorative fruits -->
+    <div class="float-fruits" aria-hidden="true">
+      <span class="ff ff1">🍎</span>
+      <span class="ff ff2">🥭</span>
+      <span class="ff ff3">🍇</span>
+      <span class="ff ff4">🍓</span>
+      <span class="ff ff5">🍊</span>
+      <span class="ff ff6">🍋</span>
+    </div>
+
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">🌿 100% Organic &amp; Imported</p>
+      <h1 class="hero-title">Fresh Fruits Delivered<br /><em>with Quality &amp; Trust</em></h1>
+      <p class="hero-sub">From orchard to doorstep — we source the world's finest fruits for you. Retail &amp; wholesale, always fresh, always premium.</p>
+      <div class="hero-ctas">
+        <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+      <div class="hero-badges">
+        <span><i class="fas fa-leaf"></i> Certified Organic</span>
+        <span><i class="fas fa-truck"></i> Same-Day Delivery</span>
+        <span><i class="fas fa-award"></i> Premium Grade</span>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visuals reveal">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=800&q=80" alt="Fresh market fruits" loading="lazy" />
+          </div>
+          <div class="about-img-secondary">
+            <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=500&q=80" alt="Organic produce" loading="lazy" />
+          </div>
+          <div class="about-badge-card">
+            <span class="gold-text">25+</span>
+            <p>Years of Excellence</p>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <p class="section-label">Our Story</p>
+          <h2 class="section-title">Nature's Best,<br /><em>Curated for You</em></h2>
+          <p class="body-text">FruitLux began as a family orchard in 1999 and has grown into one of the region's most trusted premium fruit suppliers. We bridge the gap between farm and family — sourcing organic, seasonal, and exotic fruits from global origins.</p>
+          <p class="body-text">Our mission: deliver uncompromising freshness with every order. Our vision: a world where everyone has access to nature's finest produce.</p>
+
+          <div class="about-features">
+            <div class="af-item">
+              <i class="fas fa-seedling"></i>
+              <span>Ethically Sourced</span>
+            </div>
+            <div class="af-item">
+              <i class="fas fa-temperature-low"></i>
+              <span>Cold-Chain Preserved</span>
+            </div>
+            <div class="af-item">
+              <i class="fas fa-certificate"></i>
+              <span>Quality Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Row -->
+      <div class="stats-row reveal">
+        <div class="stat-card">
+          <span class="stat-num counter" data-target="25">0</span><span class="stat-suffix">+</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num counter" data-target="12000">0</span><span class="stat-suffix">+</span>
+          <p>Happy Customers</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num counter" data-target="850">0</span><span class="stat-suffix">+</span>
+          <p>Daily Deliveries</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num counter" data-target="120">0</span><span class="stat-suffix">+</span>
+          <p>Fruit Varieties</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRODUCTS ═══════════════ -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Our Selection</p>
+        <h2 class="section-title">Featured <em>Fruits</em></h2>
+        <p class="section-sub">Hand-picked, grade-A fruits sourced from certified organic farms worldwide.</p>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="organic">Organic</button>
+        <button class="filter-btn" data-filter="imported">Imported</button>
+        <button class="filter-btn" data-filter="seasonal">Seasonal</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <div class="product-card reveal" data-category="organic">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=600&q=80" alt="Premium Apples" loading="lazy" />
+            <span class="pc-badge organic-badge">Organic</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Premium Apples" data-price="4.99">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Premium Red Apples</h3>
+            <p>Crisp, sweet Fuji apples from high-altitude orchards.</p>
+            <div class="pc-footer">
+              <span class="price">$4.99 <small>/ kg</small></span>
+              <div class="pc-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="imported">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=600&q=80" alt="Alphonso Mangoes" loading="lazy" />
+            <span class="pc-badge import-badge">Imported</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Alphonso Mangoes" data-price="8.99">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Alphonso Mangoes</h3>
+            <p>India's king of mangoes — rich, creamy, and aromatic.</p>
+            <div class="pc-footer">
+              <span class="price">$8.99 <small>/ kg</small></span>
+              <div class="pc-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="organic">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=600&q=80" alt="Organic Bananas" loading="lazy" />
+            <span class="pc-badge organic-badge">Organic</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Organic Bananas" data-price="2.49">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Organic Cavendish Bananas</h3>
+            <p>Naturally ripened, potassium-rich bananas from certified farms.</p>
+            <div class="pc-footer">
+              <span class="price">$2.49 <small>/ bunch</small></span>
+              <div class="pc-stars">★★★★☆</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="imported">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=600&q=80" alt="Black Grapes" loading="lazy" />
+            <span class="pc-badge import-badge">Imported</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Black Seedless Grapes" data-price="6.49">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Black Seedless Grapes</h3>
+            <p>Plump, juicy grapes with a deep, sweet-wine flavour.</p>
+            <div class="pc-footer">
+              <span class="price">$6.49 <small>/ kg</small></span>
+              <div class="pc-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="seasonal">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?w=600&q=80" alt="Navel Oranges" loading="lazy" />
+            <span class="pc-badge seasonal-badge">Seasonal</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Navel Oranges" data-price="3.99">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Navel Oranges</h3>
+            <p>Seedless, sun-kissed oranges bursting with Vitamin C.</p>
+            <div class="pc-footer">
+              <span class="price">$3.99 <small>/ kg</small></span>
+              <div class="pc-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="organic">
+          <div class="pc-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&q=80" alt="Strawberries" loading="lazy" />
+            <span class="pc-badge organic-badge">Organic</span>
+            <div class="pc-overlay">
+              <button class="btn btn-primary add-cart" data-name="Fresh Strawberries" data-price="5.99">Add to Cart</button>
+            </div>
+          </div>
+          <div class="pc-info">
+            <h3>Fresh Strawberries</h3>
+            <p>Hand-picked, pesticide-free strawberries — sweet and vibrant.</p>
+            <div class="pc-footer">
+              <span class="price">$5.99 <small>/ punnet</small></span>
+              <div class="pc-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY CHOOSE US ═══════════════ -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Our Promise</p>
+        <h2 class="section-title">Why Choose <em>FruitLux</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-sun"></i></div>
+          <h3>Fresh Daily</h3>
+          <p>Every delivery leaves our cold-storage facility within hours of arrival from the farm.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Certified Organic</h3>
+          <p>All organic lines carry third-party certification. Zero pesticides, zero compromise.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Fast Delivery</h3>
+          <p>Same-day city delivery. Next-day nationwide. Tracked from our door to yours.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-boxes"></i></div>
+          <h3>Wholesale Supply</h3>
+          <p>Custom bulk pricing for restaurants, hotels, and supermarkets. Flexible MOQs.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-medal"></i></div>
+          <h3>Premium Quality</h3>
+          <p>Grade-A produce only. Our 12-point QC check ensures perfection every time.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <h3>Dedicated Support</h3>
+          <p>A real human answers your calls. 7 days a week, 6 AM – 10 PM support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Voices</p>
+        <h2 class="section-title">What Our Customers <em>Say</em></h2>
+      </div>
+      <div class="testi-slider reveal">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>FruitLux completely changed how our hotel sources produce. The quality is extraordinary and the delivery is always on time. Our guests notice the difference immediately.</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="James Thornton" loading="lazy" />
+              <div>
+                <strong>James Thornton</strong>
+                <span>F&B Director, The Grand Hotel</span>
+              </div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>I've been ordering weekly for two years. The Alphonso mangoes alone are worth every penny. My family refuses to buy fruit anywhere else now!</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Sophia Chen" loading="lazy" />
+              <div>
+                <strong>Sophia Chen</strong>
+                <span>Home Customer, Regular Subscriber</span>
+              </div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>As a restaurant owner, freshness is everything. FruitLux delivers at 5 AM sharp, every day. Zero spoilage, flawless presentation — this partnership has been seamless.</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Marco Bianchi" loading="lazy" />
+              <div>
+                <strong>Marco Bianchi</strong>
+                <span>Chef-Owner, Verdura Ristorante</span>
+              </div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <p>The wholesale team worked with our budget to build a custom package. Pricing is transparent, produce is immaculate. We've tripled our fruit section sales since switching.</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&q=80" alt="Aisha Okafor" loading="lazy" />
+              <div>
+                <strong>Aisha Okafor</strong>
+                <span>Procurement Manager, FreshMart</span>
+              </div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+
+        </div>
+
+        <div class="testi-controls">
+          <button class="testi-prev" id="testiPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-next" id="testiNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ GALLERY ═══════════════ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Gallery</p>
+        <h2 class="section-title">A Feast <em>for the Eyes</em></h2>
+      </div>
+      <div class="gallery-masonry" id="galleryGrid">
+        <div class="g-item reveal tall" data-src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=600&q=80" alt="Fruit bowl" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal" data-src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=600&q=80" alt="Fresh oranges" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal" data-src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=600&q=80" alt="Berries close-up" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal wide" data-src="https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=800&q=80" alt="Tropical fruits" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal" data-src="https://images.unsplash.com/photo-1546548970-71785318a17b?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1546548970-71785318a17b?w=600&q=80" alt="Mango slices" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal" data-src="https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=1200&q=80">
+          <img src="https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600&q=80" alt="Grapes on vine" loading="lazy" />
+          <div class="g-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ LIGHTBOX ═══════════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close"><i class="fas fa-times"></i></button>
+    <button class="lb-prev" id="lbPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+    <img class="lb-img" id="lbImg" src="" alt="Gallery image" />
+    <button class="lb-next" id="lbNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Order or <em>Enquire</em></h2>
+      </div>
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 000 000 0000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="hello@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">— Select subject —</option>
+                <option>Retail Order</option>
+                <option>Wholesale Enquiry</option>
+                <option>Delivery Question</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your requirements…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+            <p class="form-success" id="formSuccess">✅ Message sent! We'll get back to you within 24 hours.</p>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div class="contact-info reveal">
+          <div class="ci-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Visit Us</strong>
+              <p>FruitLux Distribution Centre<br />142 Orchard Lane, Green District<br />New York, NY 10001</p>
+            </div>
+          </div>
+          <div class="ci-card">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Call Us</strong>
+              <p>+1 (800) 555-FRUIT<br />Mon–Sat, 6 AM – 8 PM</p>
+            </div>
+          </div>
+          <div class="ci-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email Us</strong>
+              <p>orders@fruitlux.com<br />wholesale@fruitlux.com</p>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9!2d-73.9857!3d40.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDI5JzU0LjIiTiA3M8KwNTknMDguNSJX!5e0!3m2!1sen!2sus!4v1234567890"
+              width="100%" height="220" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="FruitLux Location">
+            </iframe>
+          </div>
+
+          <a href="https://wa.me/18005553784" class="whatsapp-inline" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-icon">🌿</span>
+            <span class="logo-text">Fruit<em>Lux</em></span>
+          </a>
+          <p>Premium organic and imported fruits for retail and wholesale. Freshness guaranteed, every single day.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Organic Fruits</a></li>
+            <li><a href="#">Imported Fruits</a></li>
+            <li><a href="#">Seasonal Picks</a></li>
+            <li><a href="#">Wholesale</a></li>
+            <li><a href="#">Gift Hampers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Get seasonal deals and harvest alerts in your inbox.</p>
+          <form class="nl-form" id="nlForm">
+            <input type="email" placeholder="your@email.com" required aria-label="Email for newsletter" />
+            <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+          </form>
+          <p class="nl-success" id="nlSuccess">🌿 You're subscribed!</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 FruitLux. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ FLOATING BUTTONS ═══════════════ -->
+  <a href="https://wa.me/18005553784" class="fab-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Cart drawer -->
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Your Basket</h3>
+      <button class="cart-close" id="cartClose" aria-label="Close cart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cartItems"><p class="cart-empty">Your basket is empty 🍃</p></div>
+    <div class="cart-total" id="cartTotal"></div>
+    <button class="btn btn-primary btn-full" id="checkoutBtn">Checkout <i class="fas fa-arrow-right"></i></button>
+  </div>
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
